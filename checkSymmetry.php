@@ -14,14 +14,14 @@ function checkSymmetry($str)
 
     while (!$stack->isEmpty()) {
         if ($stack->pop() != $queue->dequeue()) {
-            return "Asymmetrical string!";
+            die("Asymmetrical string!");
         }
     }
-    return "Symmetrical string!";
+    die ("Symmetrical string!");
 }
 
 $str = "able was I ere I saw elba";
-echo checkSymmetry($str);
+checkSymmetry($str);
 ?>
 
 <!doctype html>

@@ -1,12 +1,12 @@
 # PHP-Check_Symmetry
 
-##[Bài tập] Kiểm tra chuỗi đối xứng sử dụng Queue
+## [Bài tập] Kiểm tra chuỗi đối xứng sử dụng Queue
 
-####Mục đích
+#### Mục đích
 
 Luyện tập sử dụng Queue và Stack.
 
-####Nội dung
+#### Nội dung
 
 Trong phần này, chúng ta sẽ sử dụng cấu trúc Queue để kiểm tra xem một chuỗi có đối xứng hay không.
 
