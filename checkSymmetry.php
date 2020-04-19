@@ -16,8 +16,8 @@ function checkSymmetry($str)
         if ($stack->pop() != $queue->dequeue()) {
             return "Asymmetrical string!";
         }
-        return "Symmetrical string!";
     }
+    return "Symmetrical string!";
 }
 
 $str = "able was I ere I saw elba";
